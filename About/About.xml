@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>DDK's Erin's Final Fantasy Animals Patch</name>
+    <author>DDK</author>
+    <url></url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+    <packageId>ddk.effap</packageId>
+    <description>Adds Xenomorph genetic inheritance support for the mod Erin's Final Fantasy Animals
+Art by: ChatGPT
+v0.0.1
+    </description>
+    <modDependencies>
+        <li>
+            <packageId>niz.xenomorphtype</packageId>
+            <displayName>Alien | Rimworld</displayName>
+            <downloadUrl>https://github.com/nighzmarquls/Alien-Rimworld</downloadUrl>
+        </li>
+        <li>
+            <packageId>Erin.FFAnimals</packageId>
+            <displayName>Erin's Final Fantasy Animals</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+        <loadAfter>
+            <li>Erin.FFAnimals</li>
+            <li>niz.xenomorphtype</li>
+        </loadAfter>
+    <incompatibleWith>
+    
+    </incompatibleWith>
+</ModMetaData>
