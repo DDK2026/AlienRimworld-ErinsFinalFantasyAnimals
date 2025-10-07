@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Patch>
+  <!-- Big Carbuncle -->
+   <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="ERN_BigCarbuncle"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="Ludeon.RimWorld.Biotech">KindInstinct</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">PsychicAbility_Extreme</li>
+           <li MayRequire="sarg.alphagenes">AG_InnerPeace</li>
+           <li MayRequire="sarg.alphagenes">AG_LargerBodySize</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">Beauty_Pretty</li>
+           <li MayRequire="sarg.alphagenes">AG_SelfSkip</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <!-- Regular Carbuncle -->
+   <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="ERN_Carbuncle"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="Ludeon.RimWorld.Biotech">KindInstinct</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">PsychicAbility_Extreme</li>
+           <li MayRequire="sarg.alphagenes">AG_InnerPeace</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">Beauty_Pretty</li>
+           <li MayRequire="sarg.alphagenes">AG_PsychicAbsorption</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <!-- Amaro -->
+   <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="ERN_Amaro"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="Ludeon.RimWorld.Biotech">Learning_Fast</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">AptitudeRemarkable_Intellectual</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">PsychicAbility_Enhanced</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">AptitudeStrong_Social</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <!-- Chocobo -->
+   <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="ERN_Chocobo"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="Ludeon.RimWorld.Biotech">NakedSpeed</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">MoveSpeed_VeryQuick</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">MeleeDamage_Strong</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">AptitudeStrong_Melee</li>
+           <li MayRequire="Ludeon.RimWorld.Biotech">Skin_DeepYellow</li>
+           <li MayRequire="sarg.alphagenes">AG_PackMule</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+  
+ </Patch>
